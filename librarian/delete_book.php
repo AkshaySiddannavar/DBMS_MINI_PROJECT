@@ -44,12 +44,7 @@
 				for($i=0; $i<$rows; $i++)
 				{
 					$row = mysqli_fetch_array($result);
-					echo "<tr>
-							<td>
-								<label class='control control--radio'>
-									<input type='radio' name='rd_book' value=".$row[0]." />
-								<div class='control__indicator'></div>
-							</td>";
+					echo "<tr>";
 					for($j=0; $j<6; $j++)
 						if($j == 4)
 							echo "<td>Rs.".$row[$j]."</td>";
