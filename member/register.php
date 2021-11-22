@@ -48,8 +48,8 @@
 	<?php
 		if(isset($_POST['m_register']))
 		{
-			if($_POST['m_balance'] < 500)
-				echo error_with_field("Initial balance must be at least 500 in order to create an account", "m_balance");
+			if($_POST['m_balance'] < 50)
+				echo error_with_field("Initial balance must be at least 50 in order to create an account", "m_balance");
 			else
 			{
 				$query = $con->prepare("(SELECT username FROM member WHERE username = ?) UNION (SELECT username FROM pending_registrations WHERE username = ?);");
