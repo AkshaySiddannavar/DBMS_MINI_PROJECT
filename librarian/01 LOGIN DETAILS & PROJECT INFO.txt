@@ -1,7 +1,5 @@
 **Database Name: librarygh**
 
-
-
 **Member's Login** 
 
 - You can register yourself and verify the membership request using
