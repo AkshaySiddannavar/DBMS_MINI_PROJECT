@@ -32,7 +32,7 @@
 					</div>";
 				echo "<table width='100%' cellpadding=10 cellspacing=10>";
 				echo "<tr>
-						<th></th>
+						
 						<th>ISBN<hr></th>
 						<th>Book Title<hr></th>
 						<th>Author<hr></th>
